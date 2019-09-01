@@ -8,13 +8,29 @@
 กรุณาอย่าแก้ไข้ดัดแปลงบางคำสั่ง
 
 โปรดระวังการใช้งาน. กลุ่มของท่านอาจหาย
-
-
 เมื่อท่านอยู่ในระบบและถูกเชิญเข้ากลุ่ม
 
 
 
 ```
 
-# Creator bots
-<a href="https://line.me/ti/p/~thirdz1"><img height="36" border="0" alt="Add Friend" src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png"></a>
+pkg update
+pkg upgrade
+pkg install git
+git clone https://github.com/hnumlove5/bin
+pkg install nano
+pkg install nodejs
+pkg install coreutils
+pkg install nodejs-current -y
+pkg install nodejs-current-dev
+cd bin
+npm i
+npm i -g npm
+cd src && npm install
+nano main.js
+npm start
+
+
+
+
+------------
